@@ -1,0 +1,49 @@
+
+
+html {
+    background-color: #1367E2;
+}
+
+.JH-MAIN {
+
+}
+
+.JH-Head-Profile-Image {
+    border-radius: 15em;
+    border: 5px solid orange;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+.JH-Head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #1367E2;
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.JH-Head-IconBar {
+    margin: 15em, 15em;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.JH-LinkedIn {
+    order: 1;
+}
+.JH-GitHub {
+    order: 2;
+}
+.JH-Email {
+    order: 3;
+}
+
+.JH-Projects {
+    order: 4;
+}
